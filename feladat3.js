@@ -1,7 +1,6 @@
-
-kep.onload = function() {
-    bekezdes.innerHTML = "Betöltődött!";
-}
+document.addEventListener("DOMContentLoaded", () => {
+    bekezdes.innerHTML = "Betöltődött!"
+});
 
 function kattint() {
     bekezdes.innerHTML = "Rákattintott!";
